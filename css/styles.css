@@ -1,0 +1,41 @@
+body {
+  background-color:#347474;
+  margin: 0;
+}
+
+header {
+  color: #ee8572;
+}
+
+/* Nav Bar */
+.nav {
+  background-color: #35495E;
+  overflow: hidden;
+  height: 60%;
+}
+
+.logo {
+  padding: 15px;
+  float: left;
+}
+
+.nav-button {
+  color: black;
+  background-color: #63b7af;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 3px;
+  border-radius: 25%;
+  float: right;
+  margin-top: 70px;
+  margin-right: 20px;
+}
+
+
+#logo-pic {
+  border-radius: 100px;
+  height: 150px;
+  margin: 20px 0px 20px 20px;
+}
