@@ -6,7 +6,13 @@ body {
 header {
   color: #ee8572;
 }
-
+h2{
+  font-size: 2em;
+  text-align: center;
+}
+footer{
+  display: inline;
+}
 /* Nav Bar */
 .nav {
   background-color: #35495E;
@@ -28,9 +34,11 @@ header {
   font-size: 16px;
   margin: 3px;
   border-radius: 25%;
-  float: right;
+  border: 0;
+  float:right;
   margin-top: 70px;
   margin-right: 20px;
+  position: relative;
 }
 
 
@@ -38,4 +46,35 @@ header {
   border-radius: 100px;
   height: 150px;
   margin: 20px 0px 20px 20px;
+}
+
+/* About me */
+
+.about{
+  text-align: center;
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  right: 200px;
+
+
+}
+
+#about-me{
+  text-align: center;
+  font-size: 20px;
+}
+
+.likes{
+  text-align: center;
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  left: 200px
+}
+
+/* Footer */
+.footer{
+color: #ee8572;
+height: 30px;
 }
